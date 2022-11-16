@@ -1,0 +1,50 @@
+{
+  "name": "react-digital-business-cards",
+  "version": "1.0.0",
+  "description": "A series of four digital business cards created as part of the freeCodeCamp's React tutorial, coded with HTML5, CSS3, SCSS, JavaScript (ES6), React and leveraging Babel and Webpack.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start-server": "cross-env SERVE=true webpack serve",
+    "watch-changes": "webpack --watch",
+    "build-prod": "cross-env NODE_ENV=production webpack",
+    "build-dev": "webpack",
+    "clean-dist": "rd /s dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbhogal/React-Digital-Business-Cards.git"
+  },
+  "keywords": [],
+  "author": "Aman Singh Bhogal & freeCodeCamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asbhogal/React-Digital-Business-Cards/issues"
+  },
+  "homepage": "https://github.com/asbhogal/React-Digital-Business-Cards",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.9",
+    "babel-loader": "^9.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.3",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
