@@ -1,5 +1,7 @@
 @use '/src/scss/_partials/variables' as *;
 
+/****** CARD - DARK BACKGROUND ******/
+
 .Card {
     display: flex;
     flex-direction: column;
@@ -10,116 +12,101 @@
     left: 65px;
     top: 53px;
     background-color: $DarkGunmetal;
+    .ProfilePicture {
+        height: 317px;
+        width: 317px;
+    }
+    .ProfileMainSection {   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: $EerieBack-02;
+        width: 317px;
+        height: 399px;
+    }
+    .ProfileSnapshot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ProfileName {
+            padding-top: 21px;
+        }
+        .ProfileTitle {
+            padding-top: 4.19px;
+        }
+        .ProfileWebsiteLink {
+            padding-top: 8.81px;
+        }   
+    }
+    .ContactButtons {
+        display: flex;
+        padding-top: 15px;
+        .EmailButton {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-right: 17px;
+            padding: 9px 13px 9px 11px;
+            gap: 8px;
+            width: 115px;
+            height: 34px;
+            left: 151px;
+            top: 468px;
+            background: $White;
+            border: 1px solid $LightSilver;
+            box-shadow: 0px 1px 2px #0000000d;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        
+        .LinkedInButton {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px 13px 9px 11px;
+            gap: 8px;
+            width: 115px;
+            height: 34px;
+            left: 283px;
+            top: 468px;
+            background: $UnitedNationsBlue;
+            box-shadow: 0px 1px 2px #0000000d;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    }
+    .ProfileSnapshotInfo {
+        padding-top: 33px;
+        padding-bottom: 24px;
+        width: 258px;
+        height: 201px;
+        left: 152px;
+        top: 535px;
+        .ProfileInterests {
+            padding-top: 18px;
+        }
+    }
+    .FooterLinks {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        align-items: center;
+        justify-items: center;
+        column-gap: 24px;
+        padding-inline: 72px;
+        background-color: #161619;
+        border-radius: 0px 0px 6px 6px;
+        display: flex;
+        height: 64px;
+        cursor: pointer;
+    }
+    
 }
 
-.ProfileMainSection {   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background-color: $EerieBack-02;
-    width: 317px;
-    height: 399px;
-}
+/****** CARD - LIGHT BACKGROUND ******/
 
-.ProfileName {
-    padding-top: 21px;
+.ProfileMainSection-Light {
+    background-color: $White;
 }
-
-.ProfileTitle {
-    padding-top: 4.19px;
-}
-
-.ProfileWebsiteLink {
-    padding-top: 8.81px;
-}
-
-.ProfileSnapshot {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ProfileSnapshotInfo {
-    /*padding-left: 36px;
-    padding-right: 34px;
-    padding-top: 33px;*/
-    padding-top: 33px;
-    padding-bottom: 24px;
-    width: 258px;
-    height: 201px;
-    left: 152px;
-    top: 535px;
-}
-
-.ProfilePicture {
-    height: 317px;
-    width: 317px;
-}
-
-.FooterLinks {
-    /*background-color: $ChineseBlack;
-    width: 317px;
-    border-radius: 0px 0px 6px 6px;
-    display: flex;
-    height: 64px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    cursor: pointer;*/
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    align-items: center;
-    justify-items: center;
-    column-gap: 24px;
-    padding-inline: 72px;
-    background-color: #161619;
-    border-radius: 0px 0px 6px 6px;
-    display: flex;
-    height: 64px;
-    cursor: pointer;
-}
-
-.EmailButton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 17px;
-    padding: 9px 13px 9px 11px;
-    gap: 8px;
-    width: 115px;
-    height: 34px;
-    left: 151px;
-    top: 468px;
-    background: $White;
-    border: 1px solid $LightSilver;
-    box-shadow: 0px 1px 2px #0000000d;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.LinkedInButton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 9px 13px 9px 11px;
-    gap: 8px;
-    width: 115px;
-    height: 34px;
-    left: 283px;
-    top: 468px;
-    background: $UnitedNationsBlue;
-    box-shadow: 0px 1px 2px #0000000d;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.ContactButtons {
-    display: flex;
-    padding-top: 15px;
-}
-
-/*.FooterIcons {
-    padding-right: 24px;
-}*/

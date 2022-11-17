@@ -1,7 +1,7 @@
 import profilePicture from "../mockups/Laura-Smith-Pic.png";
 import emailIcon from "../mockups/Mail-Icon.svg";
 import linkedinMiniIcon from "../mockups/LinkedIn-Mini-Icon.svg";
-import FooterLinks from "./Social-Links";
+import FooterLinks from "./FooterLinks";
 
 const Card = () => {
     return (
