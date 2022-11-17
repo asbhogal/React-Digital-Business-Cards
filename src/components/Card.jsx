@@ -14,8 +14,8 @@ const Card = () => {
                 <p className="ProfileWebsiteLink">laurasmith.website</p>
             </div>
             <div className="ContactButtons">
-                <button>Email</button>
-                <button>LinkedIn</button>
+                <button className="EmailButton">Email</button>
+                <button className="LinkedInButton">LinkedIn</button>
             </div>
             <div className="ProfileSnapshotInfo">
                 <h3 className="ProfileAbout">About</h3>

@@ -42,7 +42,15 @@
 }
 
 .ProfileSnapshotInfo {
-    padding: 0 34px;
+    /*padding-left: 36px;
+    padding-right: 34px;
+    padding-top: 33px;*/
+    padding-bottom: 24px;
+    position: absolute;
+    width: 247px;
+    height: 201px;
+    left: 152px;
+    top: 535px;
 }
 
 .ProfilePicture {
@@ -58,4 +66,41 @@
     height: 64px;
     justify-content: space-evenly;
     flex-direction: row;
+}
+
+.EmailButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.LinkedInButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    cursor: pointer;
 }
