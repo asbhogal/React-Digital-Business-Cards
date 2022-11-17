@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
     width: 550px;
     height: 868px;
     left: 65px;
@@ -13,7 +12,7 @@
     background-color: $DarkGunmetal;
 }
 
-.ProfileMainSection {
+.ProfileMainSection {   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +45,6 @@
     padding-right: 34px;
     padding-top: 33px;*/
     padding-bottom: 24px;
-    position: absolute;
     width: 247px;
     height: 201px;
     left: 152px;
@@ -75,7 +73,6 @@
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-    position: absolute;
     width: 115px;
     height: 34px;
     left: 151px;
@@ -94,7 +91,6 @@
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-    position: absolute;
     width: 115px;
     height: 34px;
     left: 283px;

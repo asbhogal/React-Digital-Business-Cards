@@ -4,5 +4,6 @@
 @use '_partials/typography' as *;
 @use '_partials/variables' as *;
 
+@use '_partials/components/root' as *;
 @use '_partials/components/container' as *;
 @use '_partials/components/card' as *;
