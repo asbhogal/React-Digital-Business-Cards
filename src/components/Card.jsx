@@ -1,4 +1,6 @@
-import profilePicture from "../mockups/Laura-Smith-Pic.png"
+import profilePicture from "../mockups/Laura-Smith-Pic.png";
+import emailIcon from "../mockups/Mail-Icon.svg";
+import linkedinMiniIcon from "../mockups/LinkedIn-Mini-Icon.svg";
 import FooterLinks from "./Social-Links";
 
 const Card = () => {
@@ -14,8 +16,14 @@ const Card = () => {
                 <p className="ProfileWebsiteLink">laurasmith.website</p>
             </div>
             <div className="ContactButtons">
-                <button className="EmailButton">Email</button>
-                <button className="LinkedInButton">LinkedIn</button>
+                <button className="EmailButton">
+                    <img src={ emailIcon }></img>
+                    Email
+                </button>
+                <button className="LinkedInButton">
+                    <img src={ linkedinMiniIcon }></img>
+                    LinkedIn
+                </button>
             </div>
             <div className="ProfileSnapshotInfo">
                 <h3 className="ProfileAbout">About</h3>
