@@ -1,5 +1,7 @@
 .Container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
     gap: 40px;
+    width: 100%;
 }
