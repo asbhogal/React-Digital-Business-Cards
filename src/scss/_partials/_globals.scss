@@ -1,0 +1,13 @@
+@use './variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    &:is(&::after, &::before, *) {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    background-color: $EerieBlack;
+}
