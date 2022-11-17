@@ -1,5 +1,61 @@
 @use '/src/scss/_partials/variables' as *;
 
-.card {
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
     background-color: $DarkGunmetal;
+}
+
+.ProfileMainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: $EerieBack-02;
+    width: 317px;
+    height: 399px;
+}
+
+.ProfileName {
+    padding-top: 21px;
+}
+
+.ProfileTitle {
+    padding-top: 6.19px;
+}
+
+.ProfileWebsiteLink {
+    padding-top: 8.81px;
+}
+
+.ProfileSnapshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProfileSnapshotInfo {
+    padding: 0 34px;
+}
+
+.ProfilePicture {
+    height: 317px;
+    width: 317px;
+}
+
+.FooterLinks {
+    background-color: $ChineseBlack;
+    width: 317px;
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    height: 64px;
+    justify-content: space-evenly;
+    flex-direction: row;
 }

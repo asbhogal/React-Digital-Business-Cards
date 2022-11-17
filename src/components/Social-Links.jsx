@@ -6,7 +6,10 @@ import twitterIcon from "../mockups/Twitter-Icon.svg"
 const FooterLinks = () => {
     return (
         <div className="FooterLinks">
-
+            <img src={ faceBookIcon }></img>
+            <img src={ githubIcon }></img>
+            <img src={ instagramIcon }></img>
+            <img src={ twitterIcon }></img>
         </div>
     )
 }
