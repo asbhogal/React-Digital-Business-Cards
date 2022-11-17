@@ -26,6 +26,6 @@ A series of four digital business cards created as part of the freeCodeCamp's Re
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
 
 <strong>:link: Links</strong><br>
- - <a target="_blank" href="https://react-digital-business-cards-project.vercel.app/">React 'Fun Facts' Project</a>
+ - <a target="_blank" href="https://react-digital-business-cards-project.vercel.app/">React Digital Business Cards Project</a>
  - <a target="_blank" href="https://www.youtube.com/watch?v=bMknfKXIFA8">freeCodeCamp course - YouTube</a>
  - <a target="_blank" href="https://scrimba.com/learn/learnreact">freeCodeCamp course - Scrimba</a>
