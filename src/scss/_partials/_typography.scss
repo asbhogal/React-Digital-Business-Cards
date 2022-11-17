@@ -79,7 +79,7 @@
 }
 
 .ProfileInterests {
-    padding-top: 27px;
+    padding-top: 18px;
 }
 
 .ProfileAboutText {
@@ -89,4 +89,24 @@
     font-size: 10.24px;
     line-height: 150%;
     letter-spacing: 0.5px;
+}
+
+.EmailButtonText {
+    width: 36px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $Charcoal;
+}
+
+.LinkedInButtonText {
+    width: 57px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $White;
 }

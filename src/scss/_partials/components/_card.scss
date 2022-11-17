@@ -27,7 +27,7 @@
 }
 
 .ProfileTitle {
-    padding-top: 6.19px;
+    padding-top: 4.19px;
 }
 
 .ProfileWebsiteLink {
@@ -46,7 +46,7 @@
     padding-top: 33px;*/
     padding-top: 33px;
     padding-bottom: 24px;
-    width: 247px;
+    width: 258px;
     height: 201px;
     left: 152px;
     top: 535px;
@@ -58,13 +58,24 @@
 }
 
 .FooterLinks {
-    background-color: $ChineseBlack;
+    /*background-color: $ChineseBlack;
     width: 317px;
     border-radius: 0px 0px 6px 6px;
     display: flex;
     height: 64px;
     justify-content: space-evenly;
     flex-direction: row;
+    cursor: pointer;*/
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+    column-gap: 24px;
+    padding-inline: 72px;
+    background-color: #161619;
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    height: 64px;
     cursor: pointer;
 }
 
@@ -108,3 +119,7 @@
     display: flex;
     padding-top: 15px;
 }
+
+/*.FooterIcons {
+    padding-right: 24px;
+}*/

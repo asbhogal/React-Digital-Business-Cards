@@ -18,11 +18,11 @@ const Card = () => {
             <div className="ContactButtons">
                 <button className="EmailButton">
                     <img src={ emailIcon }></img>
-                    Email
+                    <span className="EmailButtonText">Email</span>
                 </button>
                 <button className="LinkedInButton">
-                    <img src={ linkedinMiniIcon }></img>
-                    LinkedIn
+                <img src={ linkedinMiniIcon }></img>
+                <span className="LinkedInButtonText">LinkedIn</span>
                 </button>
             </div>
             <div className="ProfileSnapshotInfo">
