@@ -31,17 +31,15 @@
         }   
     }
     .ContactButtons {
-        display: flex;
-        padding-top: 15px;
+        @include ContactButtons;
         .EmailButton {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            margin-right: 17px;
             padding: 9px 13px 9px 11px;
             gap: 8px;
-            width: 115px;
+            width: 120.5px;
             height: 34px;
             left: 151px;
             top: 468px;
@@ -63,7 +61,7 @@
             align-items: center;
             padding: 9px 13px 9px 11px;
             gap: 8px;
-            width: 115px;
+            width: 120.5px;
             height: 34px;
             left: 283px;
             top: 468px;

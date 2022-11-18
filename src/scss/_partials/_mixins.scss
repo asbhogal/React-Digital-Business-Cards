@@ -67,6 +67,13 @@
     text-align: center;
 }
 
+@mixin ContactButtons {
+    display: flex;
+    width: 258px;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
 @mixin ProfileAboutText {
     font-style: normal;
     font-weight: 400;
@@ -103,5 +110,6 @@
     display: flex;
     height: 64px;
     cursor: pointer;
-    padding-inline: 72px;
+    width: 317px;
+    justify-content: center;
 }
