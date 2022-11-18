@@ -15,12 +15,18 @@
     .ProfileSnapshot {
         @include ProfileSnapshot;
         .ProfileName {
+            @include ProfileName;
+            color: $White;
             padding-top: 21px;
         }
         .ProfileTitle {
+            @include ProfileTitle;
+            color: $PeachOrange;
             padding-top: 4.19px;
         }
         .ProfileWebsiteLink {
+            @include ProfileWebsiteLink;
+            color: $Cultured;
             padding-top: 8.81px;
         }   
     }
@@ -44,6 +50,10 @@
             box-shadow: 0px 1px 2px #0000000d;
             border-radius: 6px;
             cursor: pointer;
+            .EmailButtonText {
+                @include EmailButtonText;
+                color: $Charcoal;
+            }
         }
         
         .LinkedInButton {
@@ -60,59 +70,30 @@
             background: $UnitedNationsBlue;
             box-shadow: 0px 1px 2px #0000000d;
             border-radius: 6px;
+            border: none;
             cursor: pointer;
+            .LinkedInButtonText {
+                @include LinkedInButtonText;
+                color: $White;
+            }
         }
     }
     .ProfileSnapshotInfo {
         @include ProfileSnapshotInfo;
+        .ProfileAboutText {
+            color: $Gainsboro;
+            @include ProfileAboutText;
+        }
         .ProfileInterests {
             padding-top: 18px;
+        }
+        .ProfileAbout, .ProfileInterests {
+            color: $Cultured;
+            padding-bottom: 5px;
         }
     }
     .FooterLinks {
         @include FooterBar;
         background-color: $ChineseBlack;
     }
-    
-}
-
-/********** FONT STYLING **********/
-
-#root {
-    font-family: 'Inter', sans-serif;
-}
-
-.ProfileName {
-    @include ProfileName;
-    color: $White;
-}
-
-.ProfileTitle {
-    @include ProfileTitle;
-    color: $PeachOrange;
-}
-
-.ProfileWebsiteLink {
-    @include ProfileWebsiteLink;
-    color: $Cultured;
-}
-
-.ProfileAbout, .ProfileInterests {
-    color: $Cultured;
-    padding-bottom: 5px;
-}
-
-.ProfileAboutText {
-    color: $Gainsboro;
-    @include ProfileAboutText;
-}
-
-.EmailButtonText {
-    @include EmailButtonText;
-    color: $Charcoal;
-}
-
-.LinkedInButtonText {
-    @include LinkedInButtonText;
-    color: $White;
 }

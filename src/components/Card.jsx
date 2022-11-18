@@ -9,11 +9,11 @@ const Card = () => {
             <div className="ProfilePicture">
                 <img src={ profilePicture }></img>
             </div>
-            <section className="ProfileMainSection-Light">
-            <div className="ProfileSnapshot-Light">
-                <h1 className="ProfileName-Light">Laura Smith</h1>
-                <h2 className="ProfileTitle-Light">Frontend Developer</h2>
-                <p className="ProfileWebsiteLink-Light">laurasmith.website</p>
+            <section className="ProfileMainSection">
+            <div className="ProfileSnapshot">
+                <h1 className="ProfileName">Laura Smith</h1>
+                <h2 className="ProfileTitle">Frontend Developer</h2>
+                <p className="ProfileWebsiteLink">laurasmith.website</p>
             </div>
             <div className="ContactButtons">
                 <button className="EmailButton">
@@ -25,11 +25,11 @@ const Card = () => {
                 <span className="LinkedInButtonText">LinkedIn</span>
                 </button>
             </div>
-            <div className="ProfileSnapshotInfo-Light">
-                <h3 className="ProfileAbout-Light">About</h3>
-                <p className="ProfileAboutText-Light">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
-                <h3 className="ProfileInterests-Light">Interests</h3>
-                <p className="ProfileAboutText-Light">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
+            <div className="ProfileSnapshotInfo">
+                <h3 className="ProfileAbout">About</h3>
+                <p className="ProfileAboutText">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+                <h3 className="ProfileInterests">Interests</h3>
+                <p className="ProfileAboutText">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
             </div>
             </section>
             <FooterLinks />

@@ -3,10 +3,6 @@
 
 /****** CARD - LIGHT BACKGROUND ******/
 
-
-
-/****** CARD - DARK BACKGROUND ******/
-
 .Card {
     @include Card;
     .ProfilePicture {
@@ -37,7 +33,7 @@
     .ContactButtons-Light {
         display: flex;
         padding-top: 15px;
-        .EmailButton {
+        .EmailButton-Light {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -54,9 +50,12 @@
             box-shadow: 0px 1px 2px #0000000d;
             border-radius: 6px;
             cursor: pointer;
+            .EmailButtonText-Light {
+                @include EmailButtonText;
+                color: $Charcoal;
+            }
         }
-        
-        .LinkedInButton {
+        .LinkedInButton-Light {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -67,46 +66,33 @@
             height: 34px;
             left: 283px;
             top: 468px;
-            background: $UnitedNationsBlue;
+            background: $BleuDeFrance;
             box-shadow: 0px 1px 2px #0000000d;
             border-radius: 6px;
+            border: none;
             cursor: pointer;
+            .LinkedInButtonText-Light {
+                @include LinkedInButtonText;
+                color: $White;
+            }
         }
     }
     .ProfileSnapshotInfo-Light {
         @include ProfileSnapshotInfo;
-        .ProfileInterests {
+        .ProfileAboutText-Light {
+            color: $Independence;
+            @include ProfileAboutText;
+        }
+        .ProfileInterests-Light {
             padding-top: 18px;
+        }
+        .ProfileAbout-Light, .ProfileInterests-Light {
+            color: $Gunmetal;
+            padding-bottom: 5px;
         }
     }
     .FooterLinks-Light {
         @include FooterBar;
         background-color: $LightSilver;
     }  
-}
-
-/********** FONT STYLING **********/
-
-#root {
-    font-family: 'Inter', sans-serif;
-}
-
-.ProfileAbout-Light, .ProfileInterests-Light {
-    color: $Gunmetal;
-    padding-bottom: 5px;
-}
-
-.ProfileAboutText-Light {
-    color: $Independence;
-    @include ProfileAboutText;
-}
-
-.EmailButtonText-Light {
-    @include EmailButtonText;
-    color: $Charcoal;
-}
-
-.LinkedInButtonText-Light {
-    @include LinkedInButtonText;
-    color: $White;
 }
