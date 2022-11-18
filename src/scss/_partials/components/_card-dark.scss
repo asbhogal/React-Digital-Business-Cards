@@ -1,34 +1,19 @@
 @use '/src/scss/_partials/variables' as *;
+@use '/src/scss/_partials/mixins' as *;
 
 /****** CARD - DARK BACKGROUND ******/
 
 .Card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 550px;
-    height: 868px;
-    left: 65px;
-    top: 53px;
-    background-color: $DarkGunmetal;
+    @include Card;
     .ProfilePicture {
-        height: 317px;
-        width: 317px;
+        @include ProfilePicture;
     }
     .ProfileMainSection {   
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
+        @include ProfileMainSection;
         background-color: $EerieBack-02;
-        width: 317px;
-        height: 399px;
     }
     .ProfileSnapshot {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include ProfileSnapshot;
         .ProfileName {
             padding-top: 21px;
         }
@@ -79,12 +64,7 @@
         }
     }
     .ProfileSnapshotInfo {
-        padding-top: 33px;
-        padding-bottom: 24px;
-        width: 258px;
-        height: 201px;
-        left: 152px;
-        top: 535px;
+        @include ProfileSnapshotInfo;
         .ProfileInterests {
             padding-top: 18px;
         }
@@ -105,8 +85,43 @@
     
 }
 
-/****** CARD - LIGHT BACKGROUND ******/
+/********** FONT STYLING **********/
 
-.ProfileMainSection-Light {
-    background-color: $White;
+#root {
+    font-family: 'Inter', sans-serif;
+}
+
+.ProfileName {
+    @include ProfileName;
+    color: $White;
+}
+
+.ProfileTitle {
+    @include ProfileTitle;
+    color: $PeachOrange;
+}
+
+.ProfileWebsiteLink {
+    @include ProfileWebsiteLink;
+    color: $Cultured;
+}
+
+.ProfileAbout, .ProfileInterests {
+    color: $Cultured;
+    padding-bottom: 5px;
+}
+
+.ProfileAboutText {
+    color: $Gainsboro;
+    @include ProfileAboutText;
+}
+
+.EmailButtonText {
+    @include EmailButtonText;
+    color: $Charcoal;
+}
+
+.LinkedInButtonText {
+    @include LinkedInButtonText;
+    color: $White;
 }

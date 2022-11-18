@@ -1,0 +1,94 @@
+@use 'variables' as *;
+
+/****** GLOBALS STYLES UNALTERED BY INDIVIDUAL VERSIONS ******/
+
+@mixin Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background-color: $DarkGunmetal;
+}
+
+@mixin ProfilePicture {
+    height: 317px;
+    width: 317px;
+}
+
+@mixin ProfileSnapshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin ProfileSnapshotInfo {
+    padding-top: 33px;
+    padding-bottom: 24px;
+    width: 258px;
+    height: 201px;
+    left: 152px;
+    top: 535px;
+}
+
+@mixin ProfileMainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 317px;
+    height: 399px;
+}
+
+@mixin ProfileName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+@mixin ProfileTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+@mixin ProfileWebsiteLink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+}
+
+@mixin ProfileAboutText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+@mixin EmailButtonText {
+    width: 36px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@mixin LinkedInButtonText {
+    width: 57px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}

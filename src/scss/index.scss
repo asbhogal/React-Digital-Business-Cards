@@ -6,4 +6,5 @@
 
 @use '_partials/components/root' as *;
 @use '_partials/components/container' as *;
-@use '_partials/components/card' as *;
+@use '_partials/components/card-light' as *;
+@use '_partials/components/card-dark' as *;

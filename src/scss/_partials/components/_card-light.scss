@@ -1,0 +1,9 @@
+@use '/src/scss/_partials/variables' as *;
+@use '/src/scss/_partials/mixins' as *;
+
+/****** CARD - LIGHT BACKGROUND ******/
+
+.ProfileMainSection-Light {
+    @include ProfileMainSection;
+    background-color: $Cultured;
+}
