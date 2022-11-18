@@ -70,17 +70,8 @@
         }
     }
     .FooterLinks {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        align-items: center;
-        justify-items: center;
-        column-gap: 24px;
-        padding-inline: 72px;
-        background-color: #161619;
-        border-radius: 0px 0px 6px 6px;
-        display: flex;
-        height: 64px;
-        cursor: pointer;
+        @include FooterBar;
+        background-color: $ChineseBlack;
     }
     
 }
