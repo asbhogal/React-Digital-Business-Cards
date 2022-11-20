@@ -16,14 +16,14 @@ const Card = (props) => {
                 <h2 className={props.ProfileTitleStyle}>Frontend Developer</h2>
                 <p className={props.ProfileWebsiteLinkStyle}>laurasmith.website</p>
             </div>
-            <div className="ContactButtons">
+            <div className={props.ProfileContactButtonsStyle}>
                 <button className="EmailButton">
                     <img src={ emailIcon }></img>
                     <span className="EmailButtonText">Email</span>
                 </button>
-                <button className="LinkedInButton">
+                <button className={props.ProfileLinkedInColorStyle}>
                 <img src={ linkedinMiniIcon }></img>
-                <span className="LinkedInButtonText">LinkedIn</span>
+                <span className={props.LinkedInButtonStyle}>LinkedIn</span>
                 </button>
             </div>
             <div className={props.ProfileSnapshotInfoStyle}>
@@ -33,7 +33,9 @@ const Card = (props) => {
                 <p className={props.ProfileInterestsTextStyle}>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
             </div>
             </section>
-            <FooterLinks />
+            <FooterLinks 
+                img="/src/mockups/Facebook-Icon.svg"
+            />
         </div>
     )
 }

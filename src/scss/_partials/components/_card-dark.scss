@@ -33,13 +33,19 @@
     .ContactButtons {
         @include ContactButtons;
         .EmailButton {
+            @include EmailButton;
+            .EmailButtonText {
+                @include EmailButtonText;
+                color: $Charcoal;
+            }
+        }
+        .EmailButtonCard2 {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             padding: 9px 13px 9px 11px;
             gap: 8px;
-            width: 120.5px;
             height: 34px;
             left: 151px;
             top: 468px;
@@ -47,13 +53,13 @@
             border: 1px solid $LightSilver;
             box-shadow: 0px 1px 2px #0000000d;
             border-radius: 6px;
+            width: 100%;
             cursor: pointer;
             .EmailButtonText {
                 @include EmailButtonText;
                 color: $Charcoal;
             }
         }
-        
         .LinkedInButton {
             display: flex;
             flex-direction: row;

@@ -1,15 +1,21 @@
 import "../scss/index.scss";
-import Card from "./Card";
+import Card1 from "./Card1";
+import Card2 from "./Card2";
 
 const App = () => {
     return (
         <div className="Container">
-            <Card 
+            <Card1 
                 ProfileMainSectionStyle="ProfileMainSection"
                 ProfileSnapshotStyle="ProfileSnapshot"
                 ProfileNameStyle="ProfileName"
                 ProfileTitleStyle="ProfileTitle"
                 ProfileWebsiteLinkStyle="ProfileWebsiteLink"
+
+                ProfileContactButtonsStyle="ContactButtons"
+
+                ProfileLinkedInColorStyle="LinkedInButton"
+                ProfileLinkedInButtonStyle="LinkedInButtonText"
 
                 ProfileSnapshotInfoStyle="ProfileSnapshotInfo"
                 ProfileAboutHeadingStyle="ProfileAbout"
@@ -17,12 +23,14 @@ const App = () => {
                 ProfileInterestsHeadingStyle="ProfileInterests"
                 ProfileInterestsTextStyle="ProfileAboutText"
             />
-            <Card 
+            <Card2 
                 ProfileMainSectionStyle="ProfileMainSection"
                 ProfileSnapshotStyle="ProfileSnapshot"
                 ProfileNameStyle="ProfileName"
                 ProfileTitleStyle="ProfileTitle"
                 ProfileWebsiteLinkStyle="ProfileWebsiteLink"
+
+                ProfileFullLengthEmailStyle="EmailButtonCard2"
                 
                 ProfileSnapshotInfoStyle="ProfileSnapshotInfo"
                 ProfileAboutHeadingStyle="ProfileAbout"
@@ -30,12 +38,17 @@ const App = () => {
                 ProfileInterestsHeadingStyle="ProfileInterests"
                 ProfileInterestsTextStyle="ProfileAboutText"
             />
-            <Card 
+            <Card1 
                 ProfileMainSectionStyle="ProfileMainSection-Light"
                 ProfileSnapshotStyle="ProfileSnapshot-Light"
                 ProfileNameStyle="ProfileName-Light"
                 ProfileTitleStyle="ProfileTitle-Light"
                 ProfileWebsiteLinkStyle="ProfileWebsiteLink-Light" 
+
+                ProfileContactButtonsStyle="ContactButtons-Light"
+
+                ProfileLinkedInColorStyle="LinkedInButton-Alt"
+                ProfileLinkedInButtonStyle="LinkedInButtonText"
 
                 ProfileSnapshotInfoStyle="ProfileSnapshotInfo-Light"
                 ProfileAboutHeadingStyle="ProfileAbout-Light"
@@ -43,12 +56,14 @@ const App = () => {
                 ProfileInterestsHeadingStyle="ProfileInterests-Light"
                 ProfileInterestsTextStyle="ProfileAboutText-Light"
             />
-            <Card 
+            <Card2 
                 ProfileMainSectionStyle="ProfileMainSection-Light"
                 ProfileSnapshotStyle="ProfileSnapshot-Light"
                 ProfileNameStyle="ProfileName-Light"
                 ProfileTitleStyle="ProfileTitle-Light"
                 ProfileWebsiteLinkStyle="ProfileWebsiteLink-Light" 
+
+                ProfileFullLengthEmailStyle="EmailButtonCard2"
 
                 ProfileSnapshotInfoStyle="ProfileSnapshotInfo-Light"
                 ProfileAboutHeadingStyle="ProfileAbout-Light"

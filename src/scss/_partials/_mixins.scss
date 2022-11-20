@@ -65,6 +65,7 @@
     font-size: 10.24px;
     line-height: 150%;
     text-align: center;
+    letter-spacing: 0.4px;
 }
 
 @mixin ContactButtons {
@@ -72,6 +73,24 @@
     width: 258px;
     justify-content: space-between;
     padding-top: 15px;
+}
+
+@mixin EmailButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 120.5px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    background: $White;
+    border: 1px solid $LightSilver;
+    box-shadow: 0px 1px 2px #0000000d;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 @mixin ProfileAboutText {
