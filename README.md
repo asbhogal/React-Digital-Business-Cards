@@ -1,5 +1,7 @@
 <div align="center">
 
+![React-Digital-Business-Cards](https://socialify.git.ci/asbhogal/React-Digital-Business-Cards/image?language=1&name=1&owner=1&pattern=Plus&theme=Dark)
+
 <h1>React Digital Business Cards Project - freeCodeCamp</h1>
 
 ![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark&responseTime=true) ![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Digital-Business-Cards/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Digital-Business-Cards?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Digital-Business-Cards?color=blueviolet&style=for-the-badge&labelColor=000)
