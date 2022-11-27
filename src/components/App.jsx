@@ -22,6 +22,8 @@ const App = () => {
                 ProfileAboutTextStyle="ProfileAboutText"
                 ProfileInterestsHeadingStyle="ProfileInterests"
                 ProfileInterestsTextStyle="ProfileAboutText"
+
+                FooterLinksStyle="FooterLinks"
             />
             <Card2 
                 ProfileMainSectionStyle="ProfileMainSection"
@@ -37,6 +39,8 @@ const App = () => {
                 ProfileAboutTextStyle="ProfileAboutText"
                 ProfileInterestsHeadingStyle="ProfileInterests"
                 ProfileInterestsTextStyle="ProfileAboutText"
+
+                FooterLinksStyle="FooterLinks"
             />
             <Card1 
                 ProfileMainSectionStyle="ProfileMainSection-Light"
@@ -55,6 +59,8 @@ const App = () => {
                 ProfileAboutTextStyle="ProfileAboutText-Light"
                 ProfileInterestsHeadingStyle="ProfileInterests-Light"
                 ProfileInterestsTextStyle="ProfileAboutText-Light"
+
+                FooterLinksStyle="FooterLinks-Light"
             />
             <Card2 
                 ProfileMainSectionStyle="ProfileMainSection-Light"
@@ -70,6 +76,8 @@ const App = () => {
                 ProfileAboutTextStyle="ProfileAboutText-Light"
                 ProfileInterestsHeadingStyle="ProfileInterests-Light"
                 ProfileInterestsTextStyle="ProfileAboutText-Light"
+
+                FooterLinksStyle="FooterLinks-Light"
             />
         </div>
     )

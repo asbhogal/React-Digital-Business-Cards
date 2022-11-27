@@ -1,7 +1,10 @@
 import profilePicture from "../mockups/Laura-Smith-Pic.png";
 import emailIcon from "../mockups/Mail-Icon.svg";
 import linkedinMiniIcon from "../mockups/LinkedIn-Mini-Icon.svg";
-import FooterLinks from "./FooterLinks";
+import faceBookIcon from "../mockups/Facebook-Icon.svg"
+import githubIcon from "../mockups/GitHub-Icon.svg"
+import instagramIcon from "../mockups/Instagram-Icon.svg"
+import twitterIcon from "../mockups/Twitter-Icon.svg"
 
 const Card = (props) => {
     console.log(props);
@@ -33,9 +36,12 @@ const Card = (props) => {
                 <p className={props.ProfileInterestsTextStyle}>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
             </div>
             </section>
-            <FooterLinks 
-                img="/src/mockups/Facebook-Icon.svg"
-            />
+            <div className={props.FooterLinksStyle}>
+                <img className="FooterIcons" src={ twitterIcon }></img>
+                <img className="FooterIcons" src={ faceBookIcon }></img>
+                <img className="FooterIcons" src={ instagramIcon }></img>
+                <img className="FooterIcons" src={ githubIcon }></img>
+            </div>
         </div>
     )
 }
