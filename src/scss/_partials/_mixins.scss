@@ -7,16 +7,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 550px;
-    height: 868px;
-    left: 65px;
-    top: 53px;
+    width: 34.375rem;
+    height: 54.25rem;
+    left: 4.0625rem;
+    top: 3.3125rem;
     background-color: $DarkGunmetal;
 }
 
 @mixin ProfilePicture {
-    height: 317px;
-    width: 317px;
+    height: 19.8125rem;
+    width: 19.8125rem;
 }
 
 @mixin ProfileSnapshot {
@@ -26,53 +26,53 @@
 }
 
 @mixin ProfileSnapshotInfo {
-    padding-top: 33px;
-    padding-bottom: 24px;
-    width: 258px;
-    height: 201px;
-    left: 152px;
-    top: 535px;
+    padding-top: 2.0625rem;
+    padding-bottom: 1.5rem;
+    width: 16.125rem;
+    height: 12.5625rem;
+    left: 9.5rem;
+    top: 33.4375rem;
 }
 
 @mixin ProfileMainSection {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 317px;
-    height: 399px;
+    width: 19.8125rem;
+    height: 24.9375rem;
 }
 
 @mixin ProfileName {
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
     text-align: center;
 }
 
 @mixin ProfileTitle {
     font-style: normal;
     font-weight: 400;
-    font-size: 12.8px;
-    line-height: 15px;
+    font-size: .8rem;
+    line-height: .9375rem;
     text-align: center;
-    letter-spacing: 0.5px;
+    letter-spacing: .0313rem;
 }
 
 @mixin ProfileWebsiteLink {
     font-style: normal;
     font-weight: 400;
-    font-size: 10.24px;
+    font-size: .64rem;
     line-height: 150%;
     text-align: center;
-    letter-spacing: 0.4px;
+    letter-spacing: .025rem;
 }
 
 @mixin ContactButtons {
     display: flex;
-    width: 258px;
+    width: 16.125rem;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: .9375rem;
 }
 
 @mixin EmailButton {
@@ -80,43 +80,43 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 13px 9px 11px;
-    gap: 8px;
-    width: 120.5px;
-    height: 34px;
-    left: 151px;
-    top: 468px;
+    padding: .5625rem .8125rem .5625rem .6875rem;
+    gap: .5rem;
+    width: 7.5313rem;
+    height: 2.125rem;
+    left: 9.4375rem;
+    top: 29.25rem;
     background: $White;
-    border: 1px solid $LightSilver;
-    box-shadow: 0px 1px 2px #0000000d;
-    border-radius: 6px;
+    border: .0625rem solid $LightSilver;
+    box-shadow: 0rem .0625rem .125rem #0000000d;
+    border-radius: .375rem;
     cursor: pointer;
 }
 
 @mixin ProfileAboutText {
     font-style: normal;
     font-weight: 400;
-    font-size: 10.24px;
+    font-size: .64rem;
     line-height: 150%;
-    letter-spacing: 0.5px;
+    letter-spacing: .0313rem;
 }
 
 @mixin EmailButtonText {
-    width: 36px;
-    height: 16px;
+    width: 2.25rem;
+    height: 1rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: .875rem;
+    line-height: 1rem;
 }
 
 @mixin LinkedInButtonText {
-    width: 57px;
-    height: 16px;
+    width: 3.5625rem;
+    height: 1rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: .875rem;
+    line-height: 1rem;
 }
 
 @mixin FooterBar {
@@ -124,11 +124,11 @@
     grid-template-columns: auto auto auto auto;
     align-items: center;
     justify-items: center;
-    column-gap: 24px;
-    border-radius: 0px 0px 6px 6px;
+    column-gap: 1.5rem;
+    border-radius: 0rem 0rem .375rem .375rem;
     display: flex;
-    height: 64px;
+    height: 4rem;
     cursor: pointer;
-    width: 317px;
+    width: 19.8125rem;
     justify-content: center;
 }

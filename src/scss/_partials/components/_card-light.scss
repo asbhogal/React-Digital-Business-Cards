@@ -17,17 +17,17 @@
         .ProfileName-Light {
             @include ProfileName;
             color: $Gunmetal;
-            padding-top: 21px;
+            padding-top: 1.3125rem;
         }
         .ProfileTitle-Light {
             @include ProfileTitle;
             color: $PrincetonOrange;
-            padding-top: 4.19px;
+            padding-top: .2619rem;
         }
         .ProfileWebsiteLink-Light {
             @include ProfileWebsiteLink;
             color: $Independence;
-            padding-top: 8.81px;
+            padding-top: .5506rem;
         }   
     }
     .ContactButtons-Light {
@@ -45,15 +45,15 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 9px 13px 9px 11px;
-            gap: 8px;
-            width: 120.5px;
-            height: 34px;
-            left: 283px;
-            top: 468px;
+            padding: .5625rem .8125rem .5625rem .6875rem;
+            gap: .5rem;
+            width: 7.5313rem;
+            height: 2.125rem;
+            left: 17.6875rem;
+            top: 29.25rem;
             background: $BleuDeFrance;
-            box-shadow: 0px 1px 2px #0000000d;
-            border-radius: 6px;
+            box-shadow: 0rem .0625rem .125rem #0000000d;
+            border-radius: .375rem;
             border: none;
             cursor: pointer;
             .LinkedInButtonText-Light {
@@ -69,11 +69,11 @@
             @include ProfileAboutText;
         }
         .ProfileInterests-Light {
-            padding-top: 18px;
+            padding-top: 1.125rem;
         }
         .ProfileAbout-Light, .ProfileInterests-Light {
             color: $Gunmetal;
-            padding-bottom: 5px;
+            padding-bottom: .3125rem;
         }
     }
     .FooterLinks-Light {
