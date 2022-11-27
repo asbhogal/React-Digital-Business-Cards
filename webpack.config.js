@@ -62,6 +62,22 @@ module.exports = {
 
     resolve: {
         extensions: [".js", ".jsx"],
+        fallback: {
+            "path" : false,
+            "util" : false,
+            "crypto" : false,
+            "zlib": false,
+            "http": false,
+            "https": false,
+            "stream": false,
+            "buffer": false,
+            "url": false,
+            "vm": false,
+            "querystring": false,
+            "os": false,
+            "constants": false,
+            "assert": false,
+        }
     },
 
     devtool: "source-map",
