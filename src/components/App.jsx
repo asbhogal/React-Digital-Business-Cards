@@ -15,7 +15,6 @@ const App = () => {
                 ProfileContactButtonsStyle="ContactButtons"
 
                 ProfileLinkedInColorStyle="LinkedInButton"
-                ProfileLinkedInButtonStyle="LinkedInButtonText"
 
                 ProfileSnapshotInfoStyle="ProfileSnapshotInfo"
                 ProfileAboutHeadingStyle="ProfileAbout"
@@ -49,10 +48,9 @@ const App = () => {
                 ProfileTitleStyle="ProfileTitle-Light"
                 ProfileWebsiteLinkStyle="ProfileWebsiteLink-Light" 
 
-                ProfileContactButtonsStyle="ContactButtons-Light"
+                ProfileContactButtonsStyle="ContactButtons"
 
-                ProfileLinkedInColorStyle="LinkedInButton-Alt"
-                ProfileLinkedInButtonStyle="LinkedInButtonText"
+                ProfileLinkedInColorStyle="LinkedInButton"
 
                 ProfileSnapshotInfoStyle="ProfileSnapshotInfo-Light"
                 ProfileAboutHeadingStyle="ProfileAbout-Light"

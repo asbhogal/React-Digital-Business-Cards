@@ -26,7 +26,7 @@ const Card = (props) => {
                 </button>
                 <button className={props.ProfileLinkedInColorStyle}>
                 <img src={ linkedinMiniIcon }></img>
-                <span className={props.LinkedInButtonStyle}>LinkedIn</span>
+                <span className="LinkedInButtonText">LinkedIn</span>
                 </button>
             </div>
             <div className={props.ProfileSnapshotInfoStyle}>
